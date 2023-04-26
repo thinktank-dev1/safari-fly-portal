@@ -1,0 +1,46 @@
+.trip-section{
+    background-image: url("../images/trip/BANNER-IMAGE2.jpg");
+    min-height: 100vh;
+}
+
+.trip-welcome-div{
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.trip-welcome-heading{
+    font-family: Bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: var(--bs-light);
+    line-height: 1;
+}
+
+.trip-welcome-sub-heading{
+    font-family: Bold;
+    font-size: 53px;
+    text-transform: uppercase;
+    color: var(--bs-light);
+    line-height: 1;
+}
+
+.trip-welcome-text{
+    font-family: Regular;
+    font-size: 25px;
+    color: var(--bs-gold);
+    line-height: 1; 
+}
+
+.trip-welcome-text-two{
+    font-family: Regular;
+    font-size: 16px;
+    color: var(--bs-light);
+    line-height: 1; 
+    margin-right: 34%;
+}
+
+.trip-about-text{
+    font-family: Regular;
+    font-size: 16px;
+    color: var(--bs-blue);
+}
