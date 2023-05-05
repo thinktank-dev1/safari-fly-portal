@@ -64,7 +64,6 @@
     @yield('content')
   </div>
 </div>
-@include('extensions.app-footer')
 <script src="{{ asset('js/form.js') }}"></script>
 <script>
 jQuery(document).ready(function() {

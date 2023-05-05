@@ -69,6 +69,10 @@ class UserController extends Controller
         return view('user.documents.add-additional-documents');
     }
 
+    public function invoices()
+    {
+        return view('user.documents.invoices');
+    }
     /**
      * Store a newly created resource in storage.
      *

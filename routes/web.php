@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\OverviewController;
 use App\Http\Controllers\CustomTripController;
+use App\Http\Controllers\SettingsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -43,6 +44,7 @@ Route::middleware('auth')->group(function () {
         Route::get('/additional-documents', [UserController::class, 'add_additional_documents'])->name('additional-documents');
         Route::post('/save-additional-documents', [UserController::class, 'store_additional_documents'])->name('save-additional-documents');
         Route::get('/travel-documents', [UserController::class, 'travel_documents'])->name('travel-documents');
+        Route::get('/invoices', [UserController::class, 'invoices'])->name('invoices');
     });
 
     Route::group(['prefix' => 'overview', 'as' => 'overview.'], function () {
@@ -50,6 +52,13 @@ Route::middleware('auth')->group(function () {
         Route::get('/itinerary', [OverviewController::class, 'itinerary'])->name('itinerary');
         Route::get('/previous-safaris', [OverviewController::class, 'previous_safaris'])->name('previous-safaris');
         Route::get('/previous-itinerary', [OverviewController::class, 'previous_itinerary'])->name('previous-itinerary');
+        Route::get('/account', [OverviewController::class, 'account'])->name('account');
+    });
+    
+    Route::group(['prefix' => 'settings', 'as' => 'settings.'], function () {
+        Route::get('/custom-settings', [SettingsController::class, 'custom_settings'])->name('custom-settings');
+        Route::get('/members', [SettingsController::class, 'members'])->name('members');
+        Route::get('/password', [SettingsController::class, 'password'])->name('password');
     });
 });
 

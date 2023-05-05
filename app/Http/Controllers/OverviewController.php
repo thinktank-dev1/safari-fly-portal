@@ -31,6 +31,11 @@ class OverviewController extends Controller
         return view('user.overview.previous-itinerary');
     }
 
+    public function account()
+    {
+        return view('user.overview.account');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

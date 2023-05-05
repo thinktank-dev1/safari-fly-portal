@@ -1,5 +1,5 @@
-<header class="navbar navbar-dark sticky-top text-bg-light flex-md-nowrap pt-5 shadow">
-  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="{{ url('/home') }}"><img src="{{ asset('images/home/LOGO.png') }}" class="img-fluid" alt="{{ asset('images/home/LOGO.png') }}"></a>
+<header class="navbar navbar-dark text-bg-light flex-md-nowrap pt-5">
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 fs-6" href="{{ url('/home') }}"><img src="{{ asset('images/home/LOGO.png') }}" class="img-fluid" alt="{{ asset('images/home/LOGO.png') }}"></a>
     <ul class="nav col-12 col-lg-6 col-md-auto mb-2 justify-content-end mb-md-0">
         <li><a href="{{ url('/') }}" class="nav-link px-2 link-dark">Home</a></li>
         <li><a href="{{ url('/') }}" class="nav-link px-2 link-dark">About</a></li>

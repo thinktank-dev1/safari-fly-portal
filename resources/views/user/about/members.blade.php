@@ -19,7 +19,7 @@
         @endif
     </div>
     <div class="col">
-         <form method="post" action="{{ route('user.save-member') }}">
+         <form method="post" action="{{ route('user.save-member') }}" class="about-user-form">
             @csrf
             <fieldset class="wizard-fieldset fieldset-one show">
                 <div class="row g-3 align-items-center">
@@ -69,18 +69,18 @@
                         @enderror
                     </div>
                     <div class="col-12 mt-5">
-                        <div class="row align-items-center">
-                            <div class="col-4 text-center">
+                        <div class="row align-items-center display-flex-center">
+                            <div class="col-3 text-center">
                                 <img src="{{ asset('images/member/ICON-CATERING.png') }}" class="img-fluid mb-2" alt="{{ asset('images/about-user/ICON-CATERING.png') }}">
                                 <h3 class="member-heading">ABOUT</h3>
                                 <h5 class="member-sub-heading">Catering Preference</h5>
                             </div>
-                            <div class="col-4 text-center">
+                            <div class="col-3 text-center">
                                 <img src="{{ asset('images/member/ICON-HEALTH.png') }}" class="img-fluid mb-2" alt="{{ asset('images/about-user/ICON-HEALTH.png') }}">
                                 <h3 class="member-heading">ABOUT</h3>
                                 <h5 class="member-sub-heading">Health</h5>
                             </div>
-                            <div class="col-4 text-center">
+                            <div class="col-3 text-center">
                                 <img src="{{ asset('images/member/ICON-NEXT OF KIN.png') }}" class="img-fluid mb-2" alt="{{ asset('images/about-user/ICON-NEXT OF KIN.png') }}">
                                 <h3 class="member-heading">ABOUT</h3>
                                 <h5 class="member-sub-heading">Next of kin</h5>
@@ -283,7 +283,7 @@
                 </div>	
                 <div class="col-12 mt-5 mb-3 d-flex justify-content-center">
                     <a href="javascript:;" class="btn form-wizard-previous-btn btn-outline-primary auth-btn">Previous</a>
-                    <button type="submit" class="btn btn-outline-primary auth-btn">Submit</button>
+                    <button type="submit" class="btn btn-outline-primary submit-btn">Submit</button>
                 </div>		
             </fieldset>	
         </form>

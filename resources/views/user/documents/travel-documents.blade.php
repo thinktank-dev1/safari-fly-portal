@@ -22,37 +22,41 @@
         <div class="col-sm-12 mb-3">
             <div class="travel-documents-card">
                 <p class="travel-text">Flights</p>
-                <a class="travel-documents-anchor" href=""><span class="download-span">download document <i><img src="{{ asset('images/travel-documents/ICON-DOWNLOAD.png') }}" class="img-fluid"></i></span></a>
+                <div>
+                    <a class="travel-documents-anchor" href=""><span class="download-span">download document <i><img src="{{ asset('images/travel-documents/ICON-DOWNLOAD.png') }}" class="img-fluid"></i></span></a>
+                </div>
             </div>
         </div>
         <div class="col-sm-12 mb-3">
             <div class="travel-documents-card">
-                <p class="travel-text">Flights</p>
-                <a class="travel-documents-anchor" href=""><span class="download-span">download document <i class="bi bi-box-arrow-down"></i></span></a>
+                <p class="travel-text">Booking Confirmation</p>
+                <div>
+                    <a class="travel-documents-anchor" href=""><span class="download-span">download document <i class="bi bi-box-arrow-down"></i></span></a>
+                </div>
             </div>
         </div>
         <div class="col-sm-12 mb-3">
             <div class="travel-documents-card">
-                <p class="travel-text">Flights</p>
-                <a class="travel-documents-anchor" href=""><span class="download-span">download document <i class="bi bi-box-arrow-down"></i></span></a>
+                <p class="travel-text">Passport</p>
+                <div>
+                    <a class="travel-documents-anchor" href=""><span class="download-span">download document <i class="bi bi-box-arrow-down"></i></span></a>
+                </div>
             </div>
         </div>
         <div class="col-sm-12 mb-3">
             <div class="travel-documents-card">
-                <p class="travel-text">Flights</p>
-                <a class="travel-documents-anchor" href=""><span class="download-span">download document <i class="bi bi-box-arrow-down"></i></span></a>
+                <p class="travel-text">Travel Insurance</p>
+                <div>
+                    <a class="travel-documents-anchor" href=""><span class="download-span">download document <i class="bi bi-box-arrow-down"></i></span></a>
+                </div>
             </div>
         </div>
         <div class="col-sm-12 mb-3">
             <div class="travel-documents-card">
-                <p class="travel-text">Flights</p>
-                <a class="travel-documents-anchor" href=""><span class="download-span">download document <i class="bi bi-box-arrow-down"></i></span></a>
-            </div>
-        </div>
-        <div class="col-sm-12 mb-3">
-            <div class="travel-documents-card">
-                <p class="travel-text">Flights</p>
-                <a class="travel-documents-anchor text-left" href=""><span class="download-span">download document <i class="bi bi-box-arrow-down"></i></span></a>
+                <p class="travel-text">Global Rescue</p>
+                <div>
+                    <a class="travel-documents-anchor" href=""><span class="download-span">download document <i class="bi bi-box-arrow-down"></i></span></a>
+                </div>
             </div>
         </div>
     </div>
